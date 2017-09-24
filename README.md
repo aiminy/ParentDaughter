@@ -1,4 +1,6 @@
-# ParentDaughter A pipeline for call and anotate SNP use parent and daughter sequence data 
+# ParentDaughter 
+
+A pipeline for call and anotate SNP use parent and daughter sequence data 
 
 ## Set up environment
 
