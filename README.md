@@ -21,6 +21,21 @@ conda install -c bioconda seqtk
 
 ```
 
+## Install ParentDaughter
+```{}
+
+# Install release version
+
+# You need install devtools R package
+install.packages("devtools")
+
+# Then
+R -e 'library(devtools);install_github("aiminy/ParentDaughter")'
+
+# Install ver.0.1.0 
+R -e 'library(devtools);install_github("SCCC-BBC/PathwaySplice",ref="ver.0.1.0")'
+```
+
 ## Use ParentDaughter
 
 You can also embed plots, for example:
