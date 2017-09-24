@@ -38,8 +38,6 @@ R -e 'library(devtools);install_github("SCCC-BBC/PathwaySplice",ref="ver.0.1.0")
 
 ## Use ParentDaughter
 
-You can also embed plots, for example:
-
 ```{r eval=FALSE}
 
 python R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/script3.py
@@ -53,6 +51,8 @@ Enter parent fq1: /media/H_driver/Aimin_project/Bioinformatics_Assessment/sample
 Enter parent fq2: /media/H_driver/Aimin_project/Bioinformatics_Assessment/sample-1_S1_L001_R2_001.fastq.gz
 
 Enter parent outSam: /media/H_driver/Aimin_project/Bioinformatics_Assessment/parent2.sam        
+
+# You should see the following:
 
 Building a SMALL index
 440100 reads; of these:
@@ -127,6 +127,5 @@ Runtime.totalMemory()=1427111936
 Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
 [mpileup] 1 samples in 1 input files
 <mpileup> Set max per-file depth to 8000
-
 
 ```
