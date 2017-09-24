@@ -22,10 +22,9 @@ conda install -c bioconda seqtk
 ```
 
 ## Install ParentDaughter
-```{}
+```{r install}
 
 # Install release version
-
 # You need install devtools R package
 install.packages("devtools")
 
