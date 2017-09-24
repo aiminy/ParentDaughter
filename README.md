@@ -7,6 +7,18 @@ A pipeline for call and anotate SNP use parent and daughter sequence data
 
 ```{r set_up,eval=FALSE,echo=TRUE}
 
+Python 2.7.13
+R 3.4,1
+bowtie2-build
+picard
+bowtie2
+bcftools
+seqtk
+bedops
+
+# it is better install conda, set bioconda channel, install these as the following example
+conda install -c bioconda seqtk
+
 ```
 
 ## Use ParentDaughter
