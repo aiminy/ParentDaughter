@@ -38,6 +38,13 @@ R -e 'library(devtools);install_github("SCCC-BBC/PathwaySplice",ref="ver.0.1.0")
 ## Use ParentDaughter
 
 ```{r eval=FALSE}
+# Usage:
+# Suppose you install R in your home directry
+
+python $HOME/R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/Test.py -h
+```
+
+```{r eval=FALSE}
 
 python R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/script3.py
 
