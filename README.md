@@ -3,7 +3,7 @@
 A pipeline for calling and anotating SNP using parent and daughter sequence data of bacteria  
 
 ## Set up environment
-
+You need to install the following software and tools in your computational environment
 ```{r set_up,eval=FALSE,echo=TRUE}
 Python 2.7.13
 R 3.4.1
