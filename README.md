@@ -1,11 +1,10 @@
 # ParentDaughter 
 
-A pipeline for calling and anotating SNP use parent and daughter sequence data of bacteria  
+A pipeline for calling and anotating SNP using parent and daughter sequence data of bacteria  
 
 ## Set up environment
 
 ```{r set_up,eval=FALSE,echo=TRUE}
-
 Python 2.7.13
 R 3.4.1
 bowtie2-build
@@ -40,21 +39,23 @@ R -e 'library(devtools);install_github("SCCC-BBC/PathwaySplice",ref="ver.0.1.0")
 ```{r eval=FALSE}
 # Usage:
 # Suppose you install R in your home directry
-
 python $HOME/R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/Test.py -h
 ```
 
 ## Output from running as bash model
 
 ### Run as bash model
+
 Assume you download all file in /media/H_driver/Aimin_project/Bioinformatics_Assessment directory
 
 Then you can run bash model as the folowing
 
+```{r}
 python R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/script3.py B /media/H_driver/Aimin_project/Bioinformatics_Assessment
-
+```
 You will get ouptut like:
 
+```{r}
 run as bash model
 Building a SMALL index
 440100 reads; of these:
@@ -108,8 +109,9 @@ Runtime.totalMemory()=1530920960
 Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
 [mpileup] 1 samples in 1 input files
 <mpileup> Set max per-file depth to 8000
-Your results is in /media/H_driver/Aimin_project/Bioinformatics_Assessment/ann.vcf 
 
+Your results is in /media/H_driver/Aimin_project/Bioinformatics_Assessment/ann.vcf 
+```
 ### Run as interactive model
 
 you can run interactive model as the folowing
