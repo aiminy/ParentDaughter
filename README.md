@@ -15,7 +15,7 @@ seqtk
 bedops
 Java1.8.0_121
 
-# it is better install conda, set bioconda channel, install some software as the following example
+# it is better to install conda and set bioconda channel, and install some software as the following example
 conda install -c bioconda seqtk
 
 ```
