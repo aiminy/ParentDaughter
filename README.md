@@ -46,14 +46,17 @@ python $HOME/R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/Test.py
 
 ### Run as bash model
 
-Assume you download all file in /media/H_driver/Aimin_project/Bioinformatics_Assessment directory
+Assume you download all files into
+```{r}
+/media/H_driver/Aimin_project/Bioinformatics_Assessment directory
+```
 
 Then you can run bash model as the folowing
 
 ```{r}
 python R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/script3.py B /media/H_driver/Aimin_project/Bioinformatics_Assessment
 ```
-You will get ouptut like:
+You will get ouptuts like:
 
 ```{r}
 run as bash model
@@ -83,6 +86,7 @@ Runtime.totalMemory()=1510998016
 Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
 [mpileup] 1 samples in 1 input files
 <mpileup> Set max per-file depth to 8000
+
 Building a SMALL index
 649982 reads; of these:
   649982 (100.00%) were paired; of these:
