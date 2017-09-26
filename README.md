@@ -114,7 +114,7 @@ Your results is in /media/H_driver/Aimin_project/Bioinformatics_Assessment/ann.v
 ```
 ### Run as interactive model
 
-you can run interactive model as the folowing
- 
-python R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/script3.py I /media/H_driver/Aimin_project/Bioinformatics_Assessment
-
+you can run interactive model as the following
+ ```{r}
+python $HOME/R/x86_64-pc-linux-gnu-library/3.4/ParentDaughter/bin/python/script3.py I /media/H_driver/Aimin_project/Bioinformatics_Assessment
+```
